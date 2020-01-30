@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ABC - PHP</title>
+</head>
+<body>
+    <nav>
+        <h2>ABC - CRUD</h2>
+    </nav>
+    <div class="form">
+        <h3 class="titulos">Agregar</h3>
+        <div id="raya"></div>
+        <form action="" method="post">
+            <div class="forms">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="textos" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <div id="raya gris"></div>
+            <div class="forms">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="textos" name="apellido" id="apellido" placeholder="apellido">
+            </div>
+            <input type="submit" value="Agregar" class="boton">
+        </form>
+    </div>
+    <div class="tabla">
+        <h3 class="titulos">Usuarios</h3>
+        <div id="raya"></div>
+        <table class="table">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+            <tr>
+                <td><button class="editar">Editar</button> Raul</td>
+                <td>Hernandez</td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <h3 class="titulos">Editar</h3>
+        <div id="raya"></div>
+        <form action="" method="post">
+            <div class="forms">
+                <label for="editarnombre">Nombre</label>
+                <input type="text" class="textos" name="editarnombre" id="editarnombre" placeholder="Nombre">
+            </div>
+            <div id="raya gris"></div>
+            <div class="forms">
+                <label for="editarapellido">Apellido</label>
+                <input type="text" class="textos" name="editarapellido" id="editarapellido" placeholder="Apellido">
+            </div>
+            <input type="submit" value="Editar" class="boton" disabled>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
